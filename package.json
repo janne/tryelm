@@ -13,6 +13,7 @@
     "elm-webpack-loader": "^3.0.2",
     "express": "4.13.3",
     "file-loader": "^0.8.5",
+    "fs": "0.0.2",
     "node-elm-compiler": "^4.0.1",
     "tmp": "0.0.28",
     "webpack": "^1.12.0",
