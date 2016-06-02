@@ -2,6 +2,9 @@
     "name": "tryelm",
     "description": "Try elm in the browser",
     "repository": "https://github.com/janne/tryelm.git",
+    "env": {
+        "ELM_COMPILE": "elm make Todo.elm --output elm.js"
+    },
     "buildpacks": [
         { "url": "https://github.com/srid/heroku-buildpack-elm" },
         { "url": "heroku/nodejs" }
