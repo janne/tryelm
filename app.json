@@ -3,7 +3,7 @@
     "description": "Try elm in the browser",
     "repository": "https://github.com/janne/tryelm.git",
     "env": {
-        "ELM_COMPILE": "elm make src/Main.elm --output public/elm.js"
+        "ELM_COMPILE": "echo"
     },
     "buildpacks": [
         { "url": "https://github.com/srid/heroku-buildpack-elm" },
