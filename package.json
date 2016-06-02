@@ -7,13 +7,19 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "express": "4.13.3"
+    "express": "4.13.3",
+    "node-elm-compiler": "^4.0.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/janne/tryelm.git"
   },
-  "keywords": [ "elm", "try", "node", "heroku" ],
+  "keywords": [
+    "elm",
+    "try",
+    "node",
+    "heroku"
+  ],
   "author": "Jan Andersson <jan.andersson@gmail.com>",
   "license": "MIT",
   "bugs": {
