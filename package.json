@@ -1,0 +1,23 @@
+{
+  "name": "tryelm",
+  "version": "0.1.0",
+  "description": "Try elm in the browser",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janne/tryelm.git"
+  },
+  "keywords": [ "elm", "try", "node", "heroku" ],
+  "author": "Jan Andersson <jan.andersson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janne/tryelm/issues"
+  },
+  "homepage": "https://github.com/janne/tryelm#readme"
+}
