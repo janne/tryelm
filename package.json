@@ -4,11 +4,20 @@
   "description": "Try elm in the browser",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "webpack",
+    "dev": "webpack-dev-server --hot --port 3000"
   },
   "dependencies": {
-    "express": "4.13.3",
-    "node-elm-compiler": "^4.0.1"
+    "express": "4.13.3"
+  },
+  "devDependencies": {
+    "elm-hot-loader": "^0.3.2",
+    "elm-webpack-loader": "^3.0.2",
+    "file-loader": "^0.8.5",
+    "tmp": "0.0.28",
+    "webpack": "^1.12.0",
+    "webpack-dev-server": "^1.14.0"
   },
   "repository": {
     "type": "git",
