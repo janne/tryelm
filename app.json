@@ -1,0 +1,9 @@
+{
+    "name": "tryelm",
+    "description": "Try elm in the browser",
+    "repository": "https://github.com/janne/tryelm.git",
+    "buildpacks": [
+        { "url": "https://github.com/srid/heroku-buildpack-elm" },
+        { "url": "heroku/nodejs" }
+    ]
+}
